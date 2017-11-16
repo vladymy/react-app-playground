@@ -1,0 +1,28 @@
+.hero {
+  background-image: url("../../assets/sky.jpg");
+  background-size: cover; }
+  .hero .title, .hero .subtitle {
+    color: #fff; }
+  @media screen and (max-width: 768px) {
+    .hero .title {
+      font-weight: bold; } }
+  @media screen and (min-width: 769px), print {
+    .hero .title {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 1000px) {
+    .hero .title {
+      font-size: 4rem;
+      margin-top: 2rem; } }
+  .hero .subtitle {
+    margin: 1.5rem 0 2rem 0; }
+
+.fa-cog {
+  font-size: 40px; }
+
+@media screen and (min-width: 1000px) {
+  #learn {
+    margin: 2rem; } }
+
+@media screen and (min-width: 769px), print {
+  .pd {
+    padding: 2rem 0; } }

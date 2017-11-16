@@ -1,0 +1,22 @@
+.navbar {
+  background: #383838;
+  color: white; }
+  .navbar .navbar-brand {
+    font-weight: bold; }
+  .navbar a {
+    background: none;
+    color: white; }
+    .navbar a.r-item {
+      color: #c1c1c1;
+      padding: .5rem 1.75rem; }
+      @media screen and (min-width: 769px), print {
+        .navbar a.r-item {
+          color: grey; }
+          .navbar a.r-item:hover {
+            background-color: #f1f1f1; } }
+  .navbar a:hover {
+    color: gray;
+    background: none; }
+
+.navbar-burger span {
+  background-color: #c1c1c1; }
